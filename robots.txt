@@ -1,2 +1,4 @@
 User-agent: Google
 Disallow:
+
+Sitemap: http://resinprojects.com/sitemap.xml
