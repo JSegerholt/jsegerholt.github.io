@@ -12,7 +12,7 @@ ids = {
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
         '<p>Harper’s Bazaar</p>' +
-        '<p>March 2017/p>' + 
+        '<p>March 2017 </p>' + 
         '<p>Photo:  Julia Noni</p>' + 
         '</div>'
     }, 
