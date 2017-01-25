@@ -35,7 +35,7 @@ ids = {
         '</div>'
     }, 
 	
-	"#nike_without_limits" : {
+	"#nike_move_without_limits" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story4/1.Tights.Lead.image.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story4/Tights.1.jpg" alt="">  </div>' +
