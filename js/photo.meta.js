@@ -16,6 +16,128 @@ ids = {
         '<p>Photo:  Julia Noni</p>' + 
         '</div>'
     }, 
+	    
+	"#nike_lunar_epic" : {
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story2/1.SP.Lead.image.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story2/SP.1.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story2/SP.2.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story2/SP.3.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story2/SP.4.jpg" alt="">  </div>' +
+				 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story2/SP.5.jpg" alt="">  </div>' +
+				 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story2/SP.6.jpg" alt="">  </div>' +
+				 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story2/SP.7.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+        '<p>Nike Lunar Epic</p>' +
+        '<p>Spring 2017 </p>' + 
+        '<p>Photo:  Marcus Ohlsson</p>' + 
+        '</div>'
+    }, 
+	
+	"#nike_without_limits" : {
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story4/1.Tights.Lead.image.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story4/Tights.1.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story4/Tights.2.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story4/Tights.3.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story4/Tights.4.jpg" alt="">  </div>' +
+				 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story4/Tights.5.jpg" alt="">  </div>' +
+				 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story4/Tights.6.jpg" alt="">  </div>' +
+				 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story4/Tights.7.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+        '<p>Nike Move Without Limits</p>' +
+        '<p>Spring 2016 </p>' + 
+        '<p>Photo:  Carlos Serrao</p>' + 
+        '</div>'
+    }, 
+	
+	"#nike_run_forever" : {
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story6/1.Africa.Lead.image.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story6/Africa.1.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story6/Africa.2.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story6/Africa.3.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story6/Africa.4.jpg" alt="">  </div>' +
+				 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story6/Africa.5.jpg" alt="">  </div>' +
+				 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story6/Africa.6.jpg" alt="">  </div>' +
+				 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story6/Africa.7.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+        '<p>Nike Run Forever </p>' +
+        '<p>Spring 2016 </p>' + 
+        '<p>Photo:  Carlos Serrao</p>' + 
+        '</div>'
+    }, 
+		
+	"#nike_texas_football" : {
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story8/1.FB.Lead.image.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story8/FB.1.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story8/FB.2.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story8/FB.3.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story8/FB.4.jpg" alt="">  </div>' +
+				 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story8/FB.5.jpg" alt="">  </div>' +
+				 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story8/FB.6.jpg" alt="">  </div>' +
+				 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story8/FB.7.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+        '<p>Nike Texas Football </p>' +
+        '<p>Spring 2016 </p>' + 
+        '<p>Photo:  Steven Counts</p>' + 
+        '</div>'
+    }, 
+		
+	"#esprit_edc" : {
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story10/1.edc.Lead.image.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story10/edc.1.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story10/edc.2.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story10/edc.3.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story10/edc.4.jpg" alt="">  </div>' +
+				 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story10/edc.5.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+        '<p>Esprit EDC</p>' +
+        '<p>Fall 2015</p>' + 
+        '<p>Photo:  Beau Grealy</p>' + 
+        '</div>'
+    }, 
+		
+	"#bring_your_game" : {
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story13/1.Bring.Lead.image.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story13/Bring.1.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story13/Bring.2.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story13/Bring.3.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story13/Bring.4.jpg" alt="">  </div>' +
+				 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story13/Bring.5.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+        '<p>Basketball 365 / Bring Your Game</p>' +
+        '<p>Nike 2015</p>' + 
+        '<p>Photo:  Misha Taylor</p>' + 
+        '</div>'
+    }, 
+	
+	"#eton" : {
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story15/1.Eton.Lead.image.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story15/eton.1.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story15/eton.2.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story15/eton.3.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story15/eton.4.jpg" alt="">  </div>' +
+				 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story15/eton.5.jpg" alt="">  </div>' +
+				 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story15/eton.6.jpg" alt="">  </div>' +
+				 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story15/eton.7.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+        '<p>Eton </p>' +
+        '<p>Spring / Summer 2015 </p>' + 
+        '<p>Photo:  Tobias Lundqvist</p>' + 
+        '</div>'
+    }, 
 	
     "#basketball_zoom" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
