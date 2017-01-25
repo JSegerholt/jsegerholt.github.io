@@ -241,3 +241,9 @@ a:hover {
     }
 }
 
+/* Center Images Horizontal */
+
+img{
+    margin: auto;
+}
+
