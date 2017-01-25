@@ -1,10 +1,29 @@
 ids = {
+    "#harpers_bazaar" : {
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Story1/1.HB.Lead.image.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Story1/HB.1.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Story1/HB.2.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Story1/HB.3.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Story1/HB.4.jpg" alt="">  </div>' +
+				 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Story1/HB.5.jpg" alt="">  </div>' +
+				 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Story1/HB.6.jpg" alt="">  </div>' +
+				 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Story1/HB.7.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+        '<p>Harper’s Bazaar</p>' +
+        '<p>March 2017/p>' + 
+        '<p>Photo:  Julia Noni</p>' + 
+        '</div>'
+    }, 
+	
     "#basketball_zoom" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/1/1.1.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/1/1.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/1/1.3.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/1/1.4.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/1/1.5.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
         '<p>Holiday 2014</p>' +
