@@ -5,7 +5,6 @@ ids = {
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/1/1.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/1/1.3.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/1/1.4.jpg" alt="">  </div>' +
-                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/1/1.5.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
         '<p>Holiday 2014</p>' +
