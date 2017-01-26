@@ -142,7 +142,7 @@ a:hover {
     /*    padding: 0 10px !important; */
     /*    border: 1px solid red; */
     text-align: center;
-    margin-bottom: 20px; 
+    margin-bottom: 30px; 
 
     opacity: 1;
     transition: opacity .5s ease-in-out;
@@ -239,11 +239,5 @@ a:hover {
     .gutter-10 .imgs {
         margin-bottom: -200px; 
     }
-}
-
-/* Center Images Horizontal */
-
-img{
-    margin: auto;
 }
 
