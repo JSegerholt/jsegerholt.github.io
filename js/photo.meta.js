@@ -1,7 +1,6 @@
 ids = {
     "#harpers_bazaar" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
-                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Story1/1.HB.Lead.image.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Story1/HB.1.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Story1/HB.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Story1/HB.3.jpg" alt="">  </div>' +
@@ -19,7 +18,6 @@ ids = {
 	    
 	"#nike_lunar_epic" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
-                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story2/1.SP.Lead.image.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story2/SP.1.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story2/SP.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story2/SP.3.jpg" alt="">  </div>' +
@@ -37,7 +35,6 @@ ids = {
 	
 	"#nike_move_without_limits" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
-                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story4/1.Tights.Lead.image.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story4/Tights.1.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story4/Tights.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story4/Tights.3.jpg" alt="">  </div>' +
@@ -55,7 +52,6 @@ ids = {
 	
 	"#nike_run_forever" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
-                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story6/1.Africa.Lead.image.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story6/Africa.1.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story6/Africa.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story6/Africa.3.jpg" alt="">  </div>' +
@@ -73,7 +69,6 @@ ids = {
 		
 	"#nike_texas_football" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
-                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story8/1.FB.Lead.image.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story8/FB.1.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story8/FB.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story8/FB.3.jpg" alt="">  </div>' +
@@ -91,7 +86,6 @@ ids = {
 		
 	"#esprit_edc" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
-                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story10/1.edc.Lead.image.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story10/edc.1.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story10/edc.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story10/edc.3.jpg" alt="">  </div>' +
@@ -107,7 +101,6 @@ ids = {
 	
 	"#marios_editorial" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
-                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story12/1.Brian.Lead.image.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story12/Brian.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
@@ -119,7 +112,6 @@ ids = {
 		
 	"#bring_your_game" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
-                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story13/1.Bring.Lead.image.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story13/Bring.1.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story13/Bring.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story13/Bring.3.jpg" alt="">  </div>' +
@@ -135,7 +127,6 @@ ids = {
 	
 	"#eton" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
-                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story15/1.Eton.Lead.image.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story15/eton.1.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story15/eton.2.jpg" alt="">  </div>' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/story15/eton.3.jpg" alt="">  </div>' +
