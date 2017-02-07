@@ -59,10 +59,62 @@
             .img-responsive {
                 opacity: 0; 
             }
+		
+					.overlay {
+				height: 100%;
+				width: 100%;
+				position: fixed;
+				z-index: 1;
+				top: 0;
+				left: 0;
+				background-color: rgb(0,0,0);
+				background-color: rgba(0,0,0, 0.9);
+				overflow-x: hidden;
+				transition: 0.5s;
+			}
+
+			@media screen and (max-height: 450px) {
+			  .overlay a {font-size: 20px}
+			  .overlay .closebtn {
+				font-size: 40px;
+				top: 15px;
+				right: 35px;
+			  }
+			}
+
+			@media screen and (max-device-width: 480px) {
+				.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+					max-width: none;
+				}
+				.center-block {
+					margin-left: -900px;
+				}
+			}
+			
+
+			@media screen and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+			  	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+					max-width: none;
+				}
+			}
+			@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+				.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+					max-width: none;
+				}
+				.center-block {
+					margin-left: -90%;
+				}
+			}
         </style>
     </head>
     <body>
-
+	<div id ="bd" style="display: none">
+	
+		<div id="myNav" class="overlay">
+		  <div>
+			<img id = "load-image" class="img-responsive img-responsive center-block" src="imgs/story2/SP.5.jpg" alt="nike model">
+		  </div>
+		</div>
 
 
 
@@ -226,6 +278,7 @@
 
             </div>
         </div>
+</div>	    
 
         <!-- Google Analytics -->
         <script>
@@ -239,5 +292,19 @@
 
         </script>
         <!-- End Google Analytics -->
+	    
+	    		<script>		
+		   
+		window.onload = function() { // this will be run when the whole page is loaded
+			$('#bd').fadeIn("slow");
+			
+			$( "#myNav" ).animate({opacity: 0}, 4000	, function() {
+				$('#myNav').hide();
+			});
+		};
+		$(document).ready(function(){ 
+
+		  });
+		</script>
     </body>
 </html>
