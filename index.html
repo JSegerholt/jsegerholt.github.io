@@ -293,7 +293,12 @@
         </script>
         <!-- End Google Analytics -->
 	    
-	    		<script>		
+	    <script>	
+
+		var randomNumber = Math.floor(Math.random() * 2) + 1 ;
+		if(randomNumber === 1 ){
+			$('#load-image').attr("src",'imgs/HB3L.jpg');
+		}		
 		   
 		window.onload = function() { // this will be run when the whole page is loaded
 			$('#bd').fadeIn("slow");
