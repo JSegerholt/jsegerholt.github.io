@@ -87,7 +87,10 @@
 					max-width: none;
 				}
 				.center-block {
-					margin-left: -900px;
+					margin-left: -800px;
+				}
+				.center-block-2{
+					margin-left: -80%;
 				}
 			}
 			
@@ -103,6 +106,9 @@
 				}
 				.center-block {
 					margin-left: -90%;
+				}
+				.center-block-2{
+					margin-left: -50%;
 				}
 			}
         </style>
@@ -303,6 +309,8 @@
 		var randomNumber = Math.floor(Math.random() * 2) + 1 ;
 		if(randomNumber === 1 ){
 			$('#load-image').attr("src",'imgs/main/HB3L.jpg');
+			$('#load-image').removeClass("center-block-1");
+			$('#load-image').addClass("center-block-2");
 		}		
 		   
 		window.onload = function() { // this will be run when the whole page is loaded
