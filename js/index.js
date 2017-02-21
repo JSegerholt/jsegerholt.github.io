@@ -5,7 +5,7 @@ $( document ).ready( function() {
     var $item = $( '.imgs' );
     var $vids = $( '.vids' );
 	$item.push($vids);
-	console.log($items);
+	console.log($item);
 
 
     $('#gallery' ).waitForImages({ 
