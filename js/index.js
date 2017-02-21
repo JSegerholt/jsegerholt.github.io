@@ -3,6 +3,8 @@
 
 $( document ).ready( function() {
     var $item = $( '.imgs' );
+    var $vids = $( '.vids' );
+	$item.push($vids)
 
 
     $('#gallery' ).waitForImages({ 
