@@ -467,7 +467,7 @@ ids = {
         '</div>'
     },
 	
-	"#nikeVaporMaxVC" : {
+	"#nikeVaporMaxKC" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/NikeVaporMaxKC/2.a.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/NikeVaporMaxKC/2.b.jpg" alt="">  </div>' +
