@@ -418,4 +418,67 @@ ids = {
         '<p>Photo: Jacob Sutton</p>' + 
         '</div>'
     }
+	
+	"#stefanel" : {
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Stefanel/4.a.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Stefanel/4.b.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Stefanel/4.c.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Stefanel/4.d.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Stefanel/4.e.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+        '<p>Spring 2017</p>' +
+        '<p>Stefanel</p>' + 
+        '<p>Photo:  Beau Grealy</p>' + 
+        '</div>'
+    }
+	
+	"#nikeVaporMax" : {
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/NikeVaporMax/5.a.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/NikeVaporMax/5.b.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/NikeVaporMax/5.c.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/NikeVaporMax/5.d.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/NikeVaporMax/5.e.jpg" alt="">  </div>' +
+				 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/NikeVaporMax/5.f.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+        '<p>Summer 2017</p>' +
+        '<p>Nike VaporMax</p>' + 
+        '<p>Photo: Kenneth Cappello</p>' + 
+        '</div>'
+    }
+		
+	"#esprit" : {
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Esprit/7.a.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Esprit/7.b.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Esprit/7.c.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Esprit/7.d.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Esprit/7.f.jpg" alt="">  </div>' +
+				 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Esprit/7.g.jpg" alt="">  </div>' +
+				 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/Esprit/7.i.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+        '<p>Spring 2017</p>' +
+        '<p>Nike VaporMax</p>' + 
+        '<p>Photo:  Beau Grealy</p>' + 
+        '</div>'
+    }
+	
+	"#nikeVaporMaxVC" : {
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/NikeVaporMaxKC/2.a.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/NikeVaporMaxKC/2.b.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/NikeVaporMaxKC/2.c.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/NikeVaporMaxKC/2.d.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/NikeVaporMaxKC/2.e.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+        '<p>Summer 2017</p>' +
+        '<p>Nike VaporMax</p>' + 
+        '<p>Photo:  Kenneth Cappello</p>' + 
+        '</div>'
+    }
 }
