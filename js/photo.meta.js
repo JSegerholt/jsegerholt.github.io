@@ -417,7 +417,7 @@ ids = {
         '<p>Nike Sportswear / Tech Pack</p>' + 
         '<p>Photo: Jacob Sutton</p>' + 
         '</div>'
-    }
+    },
 	
 	"#stefanel" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
@@ -432,7 +432,7 @@ ids = {
         '<p>Stefanel</p>' + 
         '<p>Photo:  Beau Grealy</p>' + 
         '</div>'
-    }
+    },
 	
 	"#nikeVaporMax" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
@@ -448,7 +448,7 @@ ids = {
         '<p>Nike VaporMax</p>' + 
         '<p>Photo: Kenneth Cappello</p>' + 
         '</div>'
-    }
+    },
 		
 	"#esprit" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
@@ -465,7 +465,7 @@ ids = {
         '<p>Nike VaporMax</p>' + 
         '<p>Photo:  Beau Grealy</p>' + 
         '</div>'
-    }
+    },
 	
 	"#nikeVaporMaxVC" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
