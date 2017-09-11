@@ -462,7 +462,7 @@ ids = {
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
         '<p>Spring 2017</p>' +
-        '<p>Nike VaporMax</p>' + 
+        '<p>Esprit</p>' + 
         '<p>Photo:  Beau Grealy</p>' + 
         '</div>'
     },
