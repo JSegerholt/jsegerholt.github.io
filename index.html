@@ -312,7 +312,13 @@
 			$('#load-image').attr("src",'imgs/main/HB3L.jpg');
 			$('#load-image').removeClass("center-block-1");
 			$('#load-image').addClass("center-block-2");
-		}		
+		}
+		    
+		if (document.cookie.indexOf("visited") >= 0) {
+			$('#myNav').hide();
+		} else {
+			document.cookie = "visited";
+		}
 		   
 		window.onload = function() { // this will be run when the whole page is loaded
 			$('#bd').fadeIn("slow");
