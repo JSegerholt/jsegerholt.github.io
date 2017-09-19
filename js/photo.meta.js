@@ -591,9 +591,9 @@ ids = {
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N28/N28.b.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
-		'<p></p>' +
-        '<p></p>' +
-        '<p></p>' + 
+		'<p>Esprit / Urban Story</p>' +
+        '<p>Summer 2017</p>' +
+        '<p>Photo:  Clara Balzary</p>' + 
         '</div>'
     },
 	"#story29" : {
@@ -603,9 +603,9 @@ ids = {
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N29/N29.c.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
-		'<p></p>' +
-        '<p></p>' +
-        '<p></p>' + 
+		'<p>Esprit / Desert Story</p>' +
+        '<p>Fall 2017</p>' +
+        '<p>Photo:  Beau Grealy</p>' + 
         '</div>'
     },
 	
