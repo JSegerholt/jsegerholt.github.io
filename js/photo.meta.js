@@ -481,6 +481,7 @@ ids = {
         '<p>Photo:  Kenneth Cappello</p>' + 
         '</div>'
     },
+	
 	"#travisScott" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N7/N7.a.jpg" alt="">  </div>' + 
@@ -495,6 +496,78 @@ ids = {
         '<p>Summer 2017</p>' +
         '<p>Nike VaporMax</p>' + 
         '<p>Photo:  Kenneth Cappello</p>' + 
+        '</div>'
+    },
+	"#nikeNFL" : {
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N9/N9.a.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N9/N9.b.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N9/N9.c.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N9/N9.d.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N9/N9.e.jpg" alt="">  </div>' +
+				'<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N9/N9.f.jpg" alt="">  </div>' +
+				'<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N9/N9.g.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+		'<p>Nike NFL / Various Athletes</p>' +
+        '<p>Fall 2018</p>' +
+        '<p>Photo:  Daniel Sannwald</p>' + 
+        '</div>'
+    },
+	"#vinceCamuto" : {
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N18/N18.a.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N18/N18.b.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N18/N18.c.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N18/N18.d.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+		'<p>Vince Camuto / Louise et Cie</p>' +
+        '<p>Fall 2018</p>' +
+        '<p>Photo:  Marcus Ohlsson</p>' + 
+        '</div>'
+    },
+	"#story19" : {
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N19/N19.a.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N19/N19.b.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N19/N19.c.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N19/N19.d.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N19/N19.e.jpg" alt="">  </div>' +
+				'<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N19/N19.f.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+		'<p>Esprit</p>' +
+        '<p>July 2017</p>' +
+        '<p>Photo:  Clara Balzary</p>' + 
+        '</div>'
+    },
+	"#nikeNFL" : {
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N25/N25.a.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N25/N25.b.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N25/N25.c.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N25/N25.d.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N25/N25.e.jpg" alt="">  </div>' +
+				'<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N25/N25.f.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+		'<p>Nike Black Roses</p>' +
+        '<p>Holiday 2017</p>' +
+        '<p>Photo:  Tom Craig</p>' + 
+        '</div>'
+    },
+		"#story27" : {
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N27/N27.a.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N27/N27.b.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N27/N27.c.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N27/N27.d.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+		'<p>Esprit</p>' +
+        '<p>Fall 2017</p>' +
+        '<p>Clara Balzary</p>' + 
         '</div>'
     }
 	
