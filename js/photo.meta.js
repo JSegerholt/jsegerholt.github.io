@@ -552,9 +552,9 @@ ids = {
 				'<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N25/N25.f.jpg" alt="">  </div>' +
                  '</div>' ], 
         description: '<div id="no-pad" class="col-md-2">' +
-		'<p>Nike Black Roses</p>' +
-        '<p>Holiday 2017</p>' +
-        '<p>Photo:  Tom Craig</p>' + 
+		'<p>Esprit/p>' +
+        '<p>Autumn 2017</p>' +
+        '<p>Photo:  Clara Balzary</p>' + 
         '</div>'
     },
 	"#story26" : {
