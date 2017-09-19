@@ -480,5 +480,22 @@ ids = {
         '<p>Nike VaporMax</p>' + 
         '<p>Photo:  Kenneth Cappello</p>' + 
         '</div>'
+    },
+	"#travisScott" : {
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N7/N7.a.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N7/N7.b.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N7/N7.c.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N7/N7.d.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N7/N7.e.jpg" alt="">  </div>' +
+				'<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N7/N7.f.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+		'<p>Travis Scott</p>' +
+        '<p>Summer 2017</p>' +
+        '<p>Nike VaporMax</p>' + 
+        '<p>Photo:  Kenneth Cappello</p>' + 
+        '</div>'
     }
+	
 }
