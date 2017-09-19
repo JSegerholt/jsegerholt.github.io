@@ -542,7 +542,7 @@ ids = {
         '<p>Photo:  Clara Balzary</p>' + 
         '</div>'
     },
-	"#nikeNFL" : {
+	"#story25" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N25/N25.a.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N25/N25.b.jpg" alt="">  </div>' +
@@ -557,7 +557,22 @@ ids = {
         '<p>Photo:  Tom Craig</p>' + 
         '</div>'
     },
-		"#story27" : {
+	"#story26" : {
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N26/N26.a.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N26/N26.b.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N26/N26.c.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N26/N26.d.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N26/N26.e.jpg" alt="">  </div>' +
+				'<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N26/N26.f.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+		'<p>Nike Black Roses</p>' +
+        '<p>Holiday 2017</p>' +
+        '<p>Photo:  Tom Craig</p>' + 
+        '</div>'
+    },
+	"#story27" : {
         images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N27/N27.a.jpg" alt="">  </div>' + 
                  '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N27/N27.b.jpg" alt="">  </div>' +
@@ -569,6 +584,29 @@ ids = {
         '<p>Fall 2017</p>' +
         '<p>Clara Balzary</p>' + 
         '</div>'
-    }
+    },
+	"#story28" : {
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N28/N28.a.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N28/N28.b.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+		'<p></p>' +
+        '<p></p>' +
+        '<p></p>' + 
+        '</div>'
+    },
+	"#story29" : {
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N29/N29.a.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N29/N29.b.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/N29/N29.c.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+		'<p></p>' +
+        '<p></p>' +
+        '<p></p>' + 
+        '</div>'
+    },
 	
 }
