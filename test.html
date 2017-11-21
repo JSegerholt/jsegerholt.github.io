@@ -1,1 +1,395 @@
-<p>hello world </p>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="google-site-verification" content="nt7xLSXmJ_rJrmOTeVYwOAmpTc6-_f9hkh_6YGoLZQc" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title>Resin Projects | Art Buying and Photo Production</title>
+        <link rel='canonical' href='http://www.resinprojects.com'/>
+        <meta property='og:site_name' content='Resin Projects | Art Buying and Photo Production'/>
+        <meta property='og:title' content='Gallery'/>
+        <meta itemprop='name' content='Gallery'/>
+        <meta property='og:url' content='http://www.resinprojects.com'/>
+        <meta itemprop='url' content='http://www.resinprojects.com'/>
+        <meta property='og:type' content='website'/>
+        <meta name='Description' CONTENT='Jennifer Segerholt is a senior photo producer offering small to large-scale production and coordination of shoots.'>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="css/normalize.css">
+
+        <!-- Latest compiled and minified CSS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script> 
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+        <script src='js/lazyload.js'></script>
+
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="css/animations.css">
+
+        <!-- All necessary photo data -->
+        <script src="js/photo.meta.js"></script>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="js/index.js"></script>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="js/smoothState.js"></script>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="js/animate.js"></script>
+
+        <style>
+            .img-responsive {
+                //opacity: 0; 
+            }
+		
+					.overlay {
+				height: 100%;
+				width: 100%;
+				position: fixed;
+				z-index: 1;
+				top: 0;
+				left: 0;
+				background-color: rgb(0,0,0);
+				background-color: rgba(0,0,0, 0.9);
+				overflow-x: hidden;
+				transition: 0.5s;
+			}
+			@media screen and (max-height: 450px) {
+			  .overlay a {font-size: 20px}
+			  .overlay .closebtn {
+				font-size: 40px;
+				top: 15px;
+				right: 35px;
+			  }
+			}
+			@media screen and (max-device-width: 480px) {
+				.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+					max-width: none;
+				}
+				.center-block {
+					margin-left: -600px;
+				}
+				.center-block-2{
+					margin-left: -80%;
+				}
+			}
+			
+			@media screen and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+			  	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+					max-width: none;
+				}
+			}
+			@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+				.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+					max-width: none;
+				}
+				.center-block {
+					margin-left: -70%;
+				}
+				.center-block-2{
+					margin-left: -50%;
+				}
+			}
+		
+		/* big landscape tablets, laptops, and desktops */
+			@media (min-width:1025px) {  
+				.rp-video{
+					margin-top:50%;
+				}
+			}
+			/* hi-res laptops and desktops */
+			@media (min-width:1281px) {  
+				.rp-video{
+					margin-top:50%;
+				}
+			}
+			
+			.vids{
+				cursor: pointer;
+				max-width: 100%;
+				height: auto;
+				margin: 0 auto;
+				vertical-align: middle;
+				text-align:center;
+				margin-bottom: 30px;
+			}
+			
+			.rp-video{
+				max-width:100%;
+			}
+        </style>
+    </head>
+    <body>
+	<div id ="bd" style="display: none">
+	
+		<div id="myNav" class="overlay">
+		  <div>
+			<img id = "load-image" class="img-responsive center-block" src="imgs/main/SU17_RN_VAPORMAX_WINNIE_HERO_03.jpg" alt="nike model">
+		  </div>
+		</div>
+
+
+
+        <div class="m-scene">
+            <nav class="navbar navbar-default scene_element50 scene_element--fadein">
+                <div class="container">
+                    <div class="navbar-header">
+                        <h1> <a href="index.html">Resin</a></h1>
+                    </div>
+                </div>
+            </nav>
+            <div class="container">
+
+                <div class="row scene_element100 fadeIn">
+                    <ul id="navigation" class="col-md-12"> 
+                        <li class="link"> <a class="active"> work </a> </li>
+                        <li class="link"> <a href="photographers.html"> photographers </a> </li>
+                        <li class="link"> <a href="talent.html"> talent </a> </li>
+                        <li class="link"> <a href="about.html"> about </a> </li>
+                        <li class="link"> <a href="contact.html"> contact </a> </li>
+			<li class="link"> <a href="set-life.html"> set life </a> </li>
+                    </ul>
+                </div>   
+
+                <div class="row scene_element100 fadeIn quote">
+                    <div class="col-md-8 col-md-offset-2">
+                        <p> 
+                            "Jennifer is an exceptionally sharp, creative and talented photo producer. Her extensive experience has given her an uncommon set of skills that allows her to analyze any situation and resolve it with a definitively strategic and creative perspective."
+                        </p>
+                        <p>
+                            - Michael Spoljaric, Senior Creative Director Nike
+                        </p>
+                    </div>
+                </div>
+
+                <div id="gallery" class="row gutter-10">
+                    
+					<!-- First Row-->
+					<!-- One-->
+                    <div id="harpers_bazaar" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/Story1/1.HB.Lead.image.jpg" alt="harpers bazaar">
+                    </div>
+					
+					<div id="vogue" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/vogue/LeadStoryImage.jpg" alt="vogue china">
+                    </div>
+
+					<div id="nike_free" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/2/T2.jpg" alt="nike free">
+                    </div>
+					
+                    <!-- Second Row-->
+					<!-- Four-->
+					<div id="nike_lunar_epic" class="vids col-md-4 col-sm-12">
+						<video class ="img-responsive rp-video scene_element150 fadeIn"  autoplay="autoplay" loop muted>
+						  <source src="imgs/main/SP17_RN.ogv" type="video/ogg">
+						  <source src="imgs/main/SP17_RN.mp4" type="video/mp4">
+						</video>
+                    </div>
+
+					          
+					<div id="nikeVaporMax" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/NikeVaporMax/5.leadimage.jpg" alt="zoom campaign">
+                    </div>
+					
+					<div id="nike_lunar_epic" class="vids col-md-4 col-sm-12">
+						<video class ="img-responsive rp-video scene_element150 fadeIn"  autoplay="autoplay" loop muted>
+						  <source src="imgs/main/SP17_RN.ogv" type="video/ogg">
+						  <source src="imgs/main/SP17_RN.mp4" type="video/mp4">
+						</video>
+                    </div>
+						
+
+					
+					<!-- Third Row-->
+					<!-- Seven-->
+                    <div id="travisScott" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/N7/N7.lead.jpg" alt="TravisScott">
+                    </div>
+							
+					<div id="zoom_campaign" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/3/T3.jpg" alt="zoom campaign">
+                    </div>
+					
+					<div id="nikeNFL" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/N9/N9.lead.jpg" alt="nikeNFL">
+                    </div>
+					
+					
+
+					<!-- Fourth Row-->
+					<!-- Ten-->
+					<div id="psg" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/6/T6.jpg" alt="psg">
+                    </div>
+					
+					<div id="nike_texas_football" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/story8/1.FB.Lead.image.jpg" alt="Nike Texas Football">
+                    </div>
+										
+					<div id="nike_sports_tech" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/5/T5.jpg" alt="nike sports tech">
+                    </div>
+					
+					<!-- Fifth Row-->
+					<!-- Thirteen-->					
+					<div id="bring_your_game" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/story13/1.Bring.Lead.image.jpg" alt="Esprit EDC">
+                    </div>
+					
+					<div id="basketball_zoom" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/1/T1.jpg" alt="basketball zoom">
+                    </div>
+					
+					<div id="eton" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/story15/1.Eton.Lead.image.jpg" alt="Eton">
+                    </div>
+					
+					<!-- Sixth Row-->
+					<!-- Sixteen-->
+					
+					<div id="nike_running_free" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/4/T4.jpg" alt="nike running free">
+                    </div>
+					
+                    <div id="nike_running_free2" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/9/T9.jpg" alt="nike running free">
+                    </div>
+
+					
+					<div id="vinceCamuto" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/N18/N18.lead.jpg" alt="nike running free">
+                    </div>
+					
+
+					
+					<!-- Seventh Row-->
+					<!-- Ninteen-->
+					<div id="story19" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/N19/N19.lead.jpg" alt="Esprit">
+                    </div>
+					
+					<div id="bra_campaign" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/8/T8.jpg" alt="bra campaign">
+                    </div>
+					
+					<div id="nike_sports_tech2" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/7/T7.jpg" alt="nike sports tech">
+                    </div>
+					
+					<!-- Eighth Row-->
+					<!-- Twenty-Two-->
+					<div id="nikeVaporMaxKC" class="imgs col-md-4 col-sm-12">
+						<img class="img-responsive" src="imgs/NikeVaporMaxKC/21.coverimage.jpg" alt="marios editorial">
+					</div>
+					
+					<div id="nike_move_without_limits" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/story4/1.Tights.Lead.image.jpg" alt="Nike Move Without Limits">
+                    </div>
+										
+					<div id="esprit_edc" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/story10/1.edc.Lead.image.jpg" alt="Esprit EDC">
+                    </div>
+			
+
+										
+					<!-- Ninth Row-->
+					<!-- Twenty-Five-->
+					<div id="story25" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/N25/N25.lead.jpg" alt="Clara Balzary">
+                    </div>
+					
+                    <div id="story26" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/N26/N26.lead.jpg" alt="Nike Black Roses">
+                    </div>
+			
+					<div id="story27" class="imgs col-md-4 col-sm-12">
+						<img class="img-responsive" src="imgs/N27/N27.lead.jpg" alt="Clara Balzary">
+					</div>
+					
+					<!-- Tenth Row-->
+					<!-- Twenty-Eight-->
+					<div id="story28" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/N28/N28.lead.jpg" alt="Story 28">
+                    </div>
+					
+                    <div id="story29" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/N29/N29.lead.jpg" alt="Story 29">
+                    </div>
+			
+                    <div id="esprit" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/Esprit/7.coverimage.jpg" alt="Esprit">
+                    </div>
+					<!-- Eleventh Row-->
+					<!-- Thirty-One-->
+					<div id="stefanel" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/Stefanel/4.leadimage.jpg" alt="stefanel">
+                    </div>
+										
+					<div id="nike_run_forever" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/story6/1.Africa.Lead.image.jpg" alt="Nike Run Forever ">
+                    </div>
+					
+
+					
+
+                </div>
+
+            </div>
+        </div>
+</div>	    
+
+        <!-- Google Analytics -->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                                    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-84076524-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <!-- End Google Analytics -->
+	    
+	    <script>	
+		var randomNumber = Math.floor(Math.random() * 2) + 1 ;
+		if(randomNumber === 1 ){
+			$('#load-image').attr("src",'imgs/main/HB3L.jpg');
+			$('#load-image').removeClass("center-block-1");
+			$('#load-image').addClass("center-block-2");
+		}
+		    
+		if (document.cookie.indexOf("visited") >= 0) {
+			$('#myNav').hide();
+		} else {
+			document.cookie = "visited";
+		}
+		   
+		window.onload = function() { // this will be run when the whole page is loaded
+			$('#bd').fadeIn("slow");
+			
+			$( "#myNav" ).animate({opacity: 0}, 8000	, function() {
+				$('#myNav').hide();
+			});
+		};
+		$(document).ready(function(){ 
+		  });
+		</script>
+    </body>
+</html>
