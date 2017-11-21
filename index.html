@@ -55,12 +55,11 @@
         <script src="js/animate.js"></script>
 
         <style>
-
             .img-responsive {
                 //opacity: 0; 
             }
 		
-					.overlay {
+			.overlay {
 				height: 100%;
 				width: 100%;
 				position: fixed;
@@ -72,7 +71,6 @@
 				overflow-x: hidden;
 				transition: 0.5s;
 			}
-
 			@media screen and (max-height: 450px) {
 			  .overlay a {font-size: 20px}
 			  .overlay .closebtn {
@@ -81,7 +79,6 @@
 				right: 35px;
 			  }
 			}
-
 			@media screen and (max-device-width: 480px) {
 				.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
 					max-width: none;
@@ -94,7 +91,6 @@
 				}
 			}
 			
-
 			@media screen and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
 			  	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
 					max-width: none;
@@ -133,6 +129,12 @@
 				vertical-align: middle;
 				text-align:center;
 				margin-bottom: 30px;
+			}
+			
+			@media screen and (min-width: 800px) {
+				.vids{
+					height: 400px;
+				}
 			}
 			
 			.rp-video{
@@ -191,32 +193,35 @@
                         <img class="img-responsive" src="imgs/Story1/1.HB.Lead.image.jpg" alt="harpers bazaar">
                     </div>
 					
-
-					<div id="nike_lunar_epic" class="vids col-md-4 col-sm-12">
-						<video class ="img-responsive rp-video scene_element150 fadeIn"  autoplay="autoplay" loop muted>
-						  <source src="imgs/main/SP17_RN.ogv" type="video/ogg">
-						  <source src="imgs/main/SP17_RN.mp4" type="video/mp4">
-						</video>
+					<div id="vogue" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/vogue/LeadStoryImage.jpg" alt="vogue china">
                     </div>
 
-					
 					<div id="nike_free" class="imgs col-md-4 col-sm-12">
                         <img class="img-responsive" src="imgs/2/T2.jpg" alt="nike free">
                     </div>
 					
                     <!-- Second Row-->
 					<!-- Four-->
-					<div id="stefanel" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/Stefanel/4.leadimage.jpg" alt="stefanel">
+					<div id="vogue" class="vids col-md-4 col-sm-12">
+						<video class ="img-responsive rp-video scene_element150 fadeIn"  autoplay="autoplay" loop muted>
+						  <source src="imgs/vogue/vogue_compressed.mp4" type="video/mp4">
+						</video>
                     </div>
+
 					          
 					<div id="nikeVaporMax" class="imgs col-md-4 col-sm-12">
                         <img class="img-responsive" src="imgs/NikeVaporMax/5.leadimage.jpg" alt="zoom campaign">
                     </div>
-						
-					<div id="nike_run_forever" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/story6/1.Africa.Lead.image.jpg" alt="Nike Run Forever ">
+					
+					<div id="nike_lunar_epic" class="vids col-md-4 col-sm-12">
+						<video class ="img-responsive rp-video scene_element150 fadeIn"  autoplay="autoplay" loop muted>
+						  <source src="imgs/main/SP17_RN.ogv" type="video/ogg">
+						  <source src="imgs/main/SP17_RN.mp4" type="video/mp4">
+						</video>
                     </div>
+						
+
 					
 					<!-- Third Row-->
 					<!-- Seven-->
@@ -330,17 +335,14 @@
                         <img class="img-responsive" src="imgs/N28/N28.lead.jpg" alt="Story 28">
                     </div>
 					
-                    <div id="story29" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/N29/N29.lead.jpg" alt="Story 29">
+ 					<div id="stefanel" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/Stefanel/4.leadimage.jpg" alt="stefanel">
                     </div>
 			
-                    <div id="esprit" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/Esprit/7.coverimage.jpg" alt="Esprit">
+					<div id="nike_run_forever" class="imgs col-md-4 col-sm-12">
+                        <img class="img-responsive" src="imgs/story6/1.Africa.Lead.image.jpg" alt="Nike Run Forever ">
                     </div>
 					
-
-					
-
                 </div>
 
             </div>
@@ -353,15 +355,12 @@
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
                 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
                                     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
             ga('create', 'UA-84076524-1', 'auto');
             ga('send', 'pageview');
-
         </script>
         <!-- End Google Analytics -->
 	    
 	    <script>	
-
 		var randomNumber = Math.floor(Math.random() * 2) + 1 ;
 		if(randomNumber === 1 ){
 			$('#load-image').attr("src",'imgs/main/HB3L.jpg');
@@ -383,7 +382,6 @@
 			});
 		};
 		$(document).ready(function(){ 
-
 		  });
 		</script>
     </body>
