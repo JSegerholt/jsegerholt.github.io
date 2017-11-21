@@ -608,5 +608,17 @@ ids = {
         '<p>Photo:  Beau Grealy</p>' + 
         '</div>'
     },
+	"#vogue" : {
+        images: [ '<div class="col-xs-12 col-md-offset-2 col-md-8 examples">' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/vogue/170628_VOGUE_JAPAN_DUNES_01_039.jpg" alt="">  </div>' + 
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/vogue/170628_VOGUE_JAPAN_DUNES_02_107.jpg" alt="">  </div>' +
+                 '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/vogue/170629_VOGUE_JAPAN_DUNES_07_140.jpg" alt="">  </div>' +
+                 '</div>' ], 
+        description: '<div id="no-pad" class="col-md-2">' +
+		'<p>Vogue China</p>' +
+        '<p>January 2018</p>' +
+        '<p>Photo:  Marcus Ohlsson</p>' + 
+        '</div>'
+    },
 	
 }
