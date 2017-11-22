@@ -371,7 +371,8 @@
 		if (document.cookie.indexOf("visited") >= 0) {
 			$('#myNav').hide();
 		} else {
-			document.cookie = "visited";
+			$('#myNav').hide();
+			//document.cookie = "visited";
 		}
 		   
 		window.onload = function() { // this will be run when the whole page is loaded
