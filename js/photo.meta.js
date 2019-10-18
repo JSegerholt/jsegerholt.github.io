@@ -152,15 +152,15 @@ ids = {
     },
     "#sloane_stephens": {
         images: ['<div class="col-xs-12 col-md-12 examples">' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/sloane_stephens/_FA18_NC_SStephens_USOpen_Primary_001.jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/sloane_stephens/_FA18_NC_SStephens_USOpen_Secondary_002(1).jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/sloane_stephens/_FA18_NC_SStephens_USOpen_Tertiary_001_Artwork(1).jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/sloane_stephens/_FA18_NC_SStephens_USOpen_Tertiary_002(1).jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/sloane_stephens/_FA18_NC_SStephens_USOpen_Tertiary_003.jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/sloane_stephens/_FA18_NC_SStephens_Wimbledon_Secondary_001(1).jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/sloane_stephens/_FA18_NC_SStephens_Wimbledon_Tertiary_002(1).jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/sloane_stephens/_FA18_NC_SStephens_Wimbledon_Tertiary_005(1).jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/sloane_stephens/_FA18_NC_SStephens_Wimbledon_Tertiary_007(1).jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/sloane_stephens/Primary_001.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/sloane_stephens/Secondary_002(1).jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/sloane_stephens/Tertiary_001_Artwork.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/sloane_stephens/Tertiary_002.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/sloane_stephens/Tertiary_003.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/sloane_stephens/Wimbledon_Secondary_001.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/sloane_stephens/Wimbledon_Tertiary_002.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/sloane_stephens/Wimbledon_Tertiary_005.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/sloane_stephens/Wimbledon_Tertiary_007.jpg" alt="">  </div>' +
             '</div>'
         ],
         description: '<div id="no-pad" class="col-md-4">' +
