@@ -503,18 +503,14 @@
         });
         $(document).ready(function() {
             document.addEventListener('scroll', function(event) {
-                //refreshGrid();
+                setTimeout(function() {
+                    refreshGrid();
+                }, 5000);
             }, true /*Capture event*/ );
 
         });
     </script>
 
 </body>
-
-<!-- Latest compiled and minified JavaScript 
-<script src="js/smoothState.js"></script>-->
-
-<!-- Latest compiled and minified JavaScript 
-<script src="js/animate.js"></script>-->
 
 </html>
