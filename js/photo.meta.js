@@ -639,11 +639,11 @@ ids = {
     },
     "#stefanel": {
         images: ['<div class="col-xs-12 col-md-12 examples">' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/stefanel/4_a.jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/stefanel/4.b.jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/stefanel/4.c.jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/stefanel/4.d.jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/stefanel/4.e.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/stefanel/4a.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/stefanel/4b.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/stefanel/4c.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/stefanel/4d.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/stefanel/4e.jpg" alt="">  </div>' +
             '</div>'
         ],
         description: '<div id="no-pad" class="col-md-4">' +
