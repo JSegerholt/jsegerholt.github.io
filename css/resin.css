@@ -1,0 +1,232 @@
+/* ---- fonts ---- */
+
+@font-face {
+    // font-family: LouizeDisplayTrial-Regular;
+    // src: url(fonts/Louize/LouizeDisplayTrial-Regular.otf);
+}
+
+@font-face {
+    // font-family: LouizeDisplayTrial-Italic;
+    // src: url(fonts/Louize/LouizeDisplayTrial-Italic.otf);
+}
+
+@font-face {
+    font-family: orator;
+    src: url(fonts/Orator/tt0758m_.ttf);
+}
+
+.resin-italics {
+	font-family: 'Playfair Display', serif;
+    // font-family: LouizeDisplayTrial-Italic;
+    font-style: italic;
+}
+
+.louize {
+	font-family: 'Playfair Display', serif;
+    // font-family: LouizeDisplayTrial-Regular;
+}
+
+a.active {
+    font-style: italic;
+}
+
+.info-page {
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", Times, serif;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+.info-page p {
+    margin: 0 0 10px;
+}
+
+.about-info {
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.42857143;
+}
+
+#em {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.home-quote {
+	font-family:  Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", Times, serif;
+	padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    letter-spacing: .5px;
+    color: #666;
+}
+
+.home-quote-name {
+    color: #333;
+}
+
+#about {
+    margin-bottom: 30px;
+}
+
+#capabilities {
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+/* ---- headers ---- */
+
+.resin-header-container{
+	margin-top:75px;
+}
+
+h1 {
+    font-family: orator;
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 20px;
+    line-height: 32px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    color: #454545;
+    font-weight: 500;
+}
+
+.grid h4 {
+    border-bottom: 1px solid #333;
+    font-size: 2.0vw;
+    letter-spacing: -0.5px;
+    padding-bottom: 2vw;
+}
+
+@media (max-width: 767px) {
+	.grid h4 {
+		font-size: 8.0vw;
+	}
+}
+
+@media (max-width: 511px) {
+    h4 {
+        border-bottom: 1px solid #333;
+        //font-family: LouizeDisplayNP;
+		font-family: 'Playfair Display', serif;
+        font-size: 8vw;
+        letter-spacing: -0.5px;
+        line-height: 8.5vw;
+        margin-bottom: 0;
+        padding-bottom: 2vw;
+    }
+}
+
+
+/* ---- links ---- */
+
+.nav-links {
+    font-size: 15px;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", Times, serif;
+    line-height: 1.42857143;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+	font-family: 'Playfair Display', serif;
+    // font-family: LouizeDisplayTrial-Regular;
+}
+
+
+/* ---- header ---- */
+
+a {
+    color: black;
+}
+
+
+/* ---- Image Height ---- */
+
+.img-height-55 {
+    height: 55%;
+}
+
+.img-height-60 {
+    height: 60%;
+}
+
+.img-height-65 {
+    height: 65%;
+}
+
+.img-height-70 {
+    height: 70%;
+}
+
+.img-height-80 {
+    height: 80%;
+}
+
+.img-height-90 {
+    height: 90%;
+}
+
+.img-height-95 {
+    height: 95%;
+}
+
+.grid-item {
+    padding-bottom: 2vw;
+}
+
+@media (max-width: 511px) {
+    .grid-item {
+        padding-bottom: 3vw;
+    }
+}
+
+@media (max-width: 991px) {
+    .desktop-only {
+        display: none !important;
+    }
+}
+
+.img-fluid {
+    margin-bottom: 20px;
+}
+
+.scene_element150 {
+    width: 100%;
+}
+
+.extra-padding{
+	padding-top:30px;
+}
+
+.right {
+  position: absolute;
+  right: 0px;
+  padding: 10px;
+}
+
+.custom-width{
+	padding-right:5px;
+}
+
+.row-nomarg{
+	margin-right: 0px;
+    margin-left: 0px;
+}
+
