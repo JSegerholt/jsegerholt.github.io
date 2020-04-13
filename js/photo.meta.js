@@ -1246,7 +1246,7 @@ ids = {
         prev_link: '/work.html#stefanel',
         next_link: '/work.html#more_adi'
     },
-    "#ssaw": {
+    "#lilymunihe": {
         images: ['<div class="col-xs-12 col-md-12 examples">' +
             '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/lilymunihe/SP20_GLF_StylingTips_Lily_Still_002.jpg" alt="">  </div>' +
             '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/lilymunihe/SP20_GLF_StylingTips_Lily_Still_003.jpg" alt="">  </div>' +
