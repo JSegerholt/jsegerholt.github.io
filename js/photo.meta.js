@@ -1211,4 +1211,21 @@ ids = {
         prev_link: '/work.html#stefanel',
         next_link: '/work.html#more_adi'
     },
+    "#damianlillard": {
+        images: ['<div class="col-xs-12 col-md-12 examples">' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/damianlillard/IMG-9775.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/damianlillard/IMG-9776.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/damianlillard/IMG-9777.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/damianlillard/IMG-9778.jpg" alt="">  </div>' +
+            '</div>'
+        ],
+        description: '<div id="no-pad" class="col-md-4">' +
+            "<p>Damian Lillard</p>" +
+            '<p>by Robin Harper  </p>' +
+            '<p>for High Snobiety</p>' +
+            '</div>',
+        title: 'Damian Lillard',
+        prev_link: '/work.html#stefanel',
+        next_link: '/work.html#more_adi'
+    },
 }
