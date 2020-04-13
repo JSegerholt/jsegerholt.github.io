@@ -1213,10 +1213,10 @@ ids = {
     },
     "#damianlillard": {
         images: ['<div class="col-xs-12 col-md-12 examples">' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/damianlillard/IMG-9775.jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/damianlillard/IMG-9776.jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/damianlillard/IMG-9777.jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/damianlillard/IMG-9778.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/damianlillard/IMG-9775.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/damianlillard/IMG-9776.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/damianlillard/IMG-9777.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/damianlillard/IMG-9778.jpg" alt="">  </div>' +
             '</div>'
         ],
         description: '<div id="no-pad" class="col-md-4">' +
@@ -1230,12 +1230,12 @@ ids = {
     },
     "#ssaw": {
         images: ['<div class="col-xs-12 col-md-12 examples">' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/ssaw/hart_leshkina_ssaw_ss20_srgb_10.jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/ssaw/hart_leshkina_ssaw_ss20_srgb_14.jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/ssaw/hart_leshkina_ssaw_ss20_srgb_15.jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/ssaw/hart_leshkina_ssaw_ss20_srgb_16.jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/ssaw/hart_leshkina_ssaw_ss20_srgb_3.jpg.jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/ssaw/hart_leshkina_ssaw_ss20_srgb_4.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/ssaw/hart_leshkina_ssaw_ss20_srgb_10.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/ssaw/hart_leshkina_ssaw_ss20_srgb_14.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/ssaw/hart_leshkina_ssaw_ss20_srgb_15.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/ssaw/hart_leshkina_ssaw_ss20_srgb_16.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/ssaw/hart_leshkina_ssaw_ss20_srgb_3.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/ssaw/hart_leshkina_ssaw_ss20_srgb_4.jpg" alt="">  </div>' +
             '</div>'
         ],
         description: '<div id="no-pad" class="col-md-4">' +
@@ -1243,6 +1243,25 @@ ids = {
             '<p>for SSAW / SS20  </p>' +
             '</div>',
         title: 'Hart + Leshkina',
+        prev_link: '/work.html#stefanel',
+        next_link: '/work.html#more_adi'
+    },
+    "#ssaw": {
+        images: ['<div class="col-xs-12 col-md-12 examples">' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/lilymunihe/SP20_GLF_StylingTips_Lily_Still_002.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/lilymunihe/SP20_GLF_StylingTips_Lily_Still_003.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/lilymunihe/SP20_GLF_StylingTips_Lily_Still_004.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/lilymunihe/SP20_GLF_StylingTips_Lily_Still_008.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/lilymunihe/SP20_GLF_StylingTips_Lily_Still_010.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/lilymunihe/SP20_GLF_StylingTips_Lily_Still_013.jpg" alt="">  </div>' +
+            '</div>'
+        ],
+        description: '<div id="no-pad" class="col-md-4">' +
+            "<p>Aaron Smith x</p>" +
+            '<p>Nike Golf</p>' +
+            '<p>with Lily Muni He</p>' +
+            '</div>',
+        title: 'Aaron Smith x',
         prev_link: '/work.html#stefanel',
         next_link: '/work.html#more_adi'
     },
