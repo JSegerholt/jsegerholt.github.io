@@ -1228,4 +1228,22 @@ ids = {
         prev_link: '/work.html#stefanel',
         next_link: '/work.html#more_adi'
     },
+    "#ssaw": {
+        images: ['<div class="col-xs-12 col-md-12 examples">' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/ssaw/hart_leshkina_ssaw_ss20_srgb_10.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/ssaw/hart_leshkina_ssaw_ss20_srgb_14.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/ssaw/hart_leshkina_ssaw_ss20_srgb_15.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/ssaw/hart_leshkina_ssaw_ss20_srgb_16.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/ssaw/hart_leshkina_ssaw_ss20_srgb_3.jpg.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/ssaw/hart_leshkina_ssaw_ss20_srgb_4.jpg" alt="">  </div>' +
+            '</div>'
+        ],
+        description: '<div id="no-pad" class="col-md-4">' +
+            "<p>Hart + Leshkina</p>" +
+            '<p>for SSAW / SS20  </p>' +
+            '</div>',
+        title: 'Hart + Leshkina',
+        prev_link: '/work.html#stefanel',
+        next_link: '/work.html#more_adi'
+    },
 }
