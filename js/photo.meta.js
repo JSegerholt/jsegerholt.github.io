@@ -77,7 +77,7 @@ ids = {
             '</div>',
         title: 'Adi Color with JUCO!',
         prev_link: '/work.html#voguebeautyjapan',
-        next_link: '/work.html#fwddazedlead'
+        next_link: '/work.html#damianlillard'
     },
     "#fwddazedlead": {
         images: ['<div class="col-xs-12 col-md-12 examples">' +
@@ -92,7 +92,7 @@ ids = {
             '<p>DAZED Mag Autumn 2018</p>' +
             '</div>',
         title: 'DAZED Mag Autumn 2018',
-        prev_link: '/work.html#more_adi',
+        prev_link: '/work.html#lilymunihe',
         next_link: '/work.html#hbwithzoeygrossman'
     },
     "#hbwithzoeygrossman": {
@@ -1225,8 +1225,8 @@ ids = {
             '<p>for High Snobiety</p>' +
             '</div>',
         title: 'Damian Lillard',
-        prev_link: '/work.html#stefanel',
-        next_link: '/work.html#more_adi'
+        prev_link: '/work.html#more_adi',
+        next_link: '/work.html#ssaw'
     },
     "#ssaw": {
         images: ['<div class="col-xs-12 col-md-12 examples">' +
@@ -1243,8 +1243,8 @@ ids = {
             '<p>for SSAW / SS20  </p>' +
             '</div>',
         title: 'Hart + Leshkina',
-        prev_link: '/work.html#stefanel',
-        next_link: '/work.html#more_adi'
+        prev_link: '/work.html#damianlillard',
+        next_link: '/work.html#lilymunihe'
     },
     "#lilymunihe": {
         images: ['<div class="col-xs-12 col-md-12 examples">' +
@@ -1262,7 +1262,7 @@ ids = {
             '<p>with Lily Muni He</p>' +
             '</div>',
         title: 'Aaron Smith x',
-        prev_link: '/work.html#stefanel',
-        next_link: '/work.html#more_adi'
+        prev_link: '/work.html#ssaw',
+        next_link: '/work.html#fwddazedlead'
     },
 }
