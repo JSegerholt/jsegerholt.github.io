@@ -1,400 +1,550 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="google-site-verification" content="nt7xLSXmJ_rJrmOTeVYwOAmpTc6-_f9hkh_6YGoLZQc" />
 
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <title>Resin Projects | Art Buying and Photo Production</title>
-        <link rel='canonical' href='http://www.resinprojects.com'/>
-        <meta property='og:site_name' content='Resin Projects | Art Buying and Photo Production'/>
-        <meta property='og:title' content='Gallery'/>
-        <meta itemprop='name' content='Gallery'/>
-        <meta property='og:url' content='http://www.resinprojects.com'/>
-        <meta itemprop='url' content='http://www.resinprojects.com'/>
-        <meta property='og:type' content='website'/>
-        <meta name='Description' CONTENT='Jennifer Segerholt is a senior photo producer offering small to large-scale production and coordination of shoots.'>
+<head>
 
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="css/normalize.css">
+    <title>Resin Projects | Art Buying and Photo Production</title>
+    <meta name='Description' CONTENT='Jennifer Segerholt is a senior photo producer offering small to large-scale production and coordination of still and motion shoots.'>
 
-        <!-- Latest compiled and minified CSS -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
-        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script> 
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
 
-        <script src='js/lazyload.js'></script>
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom styles for this template -->
+    <link href="css/resin.css" rel="stylesheet">
 
 
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
 
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="css/animations.css">
+    <style>
+        .img-fluid {
+            opacity: 0;
+            visibility: hidden
+        }
+    </style>
 
-        <!-- All necessary photo data -->
-        <script src="js/photo.meta.js"></script>
+</head>
 
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="js/bootstrap.min.js"></script>
+<body>
 
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="js/index.js"></script>
+    <!--Header -->
 
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="js/smoothState.js"></script>
-
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="js/animate.js"></script>
-
-        <style>
-            .img-responsive {
-                //opacity: 0; 
-            }
-		
-			.overlay {
-				height: 100%;
-				width: 100%;
-				position: fixed;
-				z-index: 1;
-				top: 0;
-				left: 0;
-				background-color: rgb(0,0,0);
-				background-color: rgba(0,0,0, 0.9);
-				overflow-x: hidden;
-				transition: 0.5s;
-			}
-			@media screen and (max-height: 450px) {
-			  .overlay a {font-size: 20px}
-			  .overlay .closebtn {
-				font-size: 40px;
-				top: 15px;
-				right: 35px;
-			  }
-			}
-			@media screen and (max-device-width: 480px) {
-				.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-					max-width: none;
-				}
-				.center-block {
-					margin-left: -600px;
-				}
-				.center-block-2{
-					margin-left: -80%;
-				}
-			}
-			
-			@media screen and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-			  	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-					max-width: none;
-				}
-			}
-			@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-				.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-					max-width: none;
-				}
-				.center-block {
-					margin-left: -70%;
-				}
-				.center-block-2{
-					margin-left: -50%;
-				}
-			}
-		
-		/* big landscape tablets, laptops, and desktops */
-			@media (min-width:1025px) {  
-				.rp-video{
-					margin-top:50%;
-				}
-			}
-			/* hi-res laptops and desktops */
-			@media (min-width:1281px) {  
-				.rp-video{
-					margin-top:50%;
-				}
-			}
-			
-			.vids{
-				cursor: pointer;
-				max-width: 100%;
-				height: auto;
-				margin: 0 auto;
-				vertical-align: middle;
-				text-align:center;
-				margin-bottom: 30px;
-			}
-			
-			@media screen and (min-width: 800px) {
-				.vids{
-					height: 400px;
-				}
-			}
-			
-			.rp-video{
-				max-width:100%;
-			}
-        </style>
-    </head>
-    <body>
-	<div id ="bd" style="display: none">
-	
-		<div id="myNav" class="overlay">
-		  <div>
-			<img id = "load-image" class="img-responsive center-block" src="imgs/main/SU17_RN_VAPORMAX_WINNIE_HERO_03.jpg" alt="nike model">
-		  </div>
-		</div>
+    <div class="container resin-header-container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1> <a href="index.html">Resin</a></h1>
+            </div>
+        </div>
+    </div>
+    <div id="row">
+        <hr>
+        <div class="col-md-12 text-center nav-links">
+            <span class="col-md-1"> <a class="active"> work </a> </span>
+            <span class="col-md-1"> <a href="photographers.html"> photographers </a> </span>
+            <span class="col-md-1"> <a href="talent.html"> talent </a> </span>
+            <span class="col-md-1"> <a href="about.html"> about </a> </span>
+            <span class="col-md-1"> <a href="contact.html"> contact </a> </span>
+            <span class="col-md-1"> <a href="set-life.html"> set life </a> </span>
+        </div>
+        <hr>
+    </div>
 
 
+    <div style="width:100%" class="row row-nomarg">
+        <div class="col-md-8 offset-md-2 text-center home-quote">
+            <p>
+                Resin Projects is global production company offering small to large-scale production and <br> coordination of still and motion shoots with a specialization in agency/client creative collaboration.
+            </p>
+        </div>
+    </div>
 
-        <div class="m-scene">
-            <nav class="navbar navbar-default scene_element50 scene_element--fadein">
-                <div class="container">
-                    <div class="navbar-header">
-                        <h1> <a href="index.html">Resin</a></h1>
+    <!--Body -->
+    <div id="main-container" class="container-fluid m-scene">
+        <div>
+            <div class="grid">
+                <div class="grid-sizer col-md-3 col-sm-12 text-center"></div>
+
+                <a href="work.html#harpers_bazaar">
+                    <div class="grid-item col-sm-12 col-md-3">
+                        <img class="img-fluid" src="imgs/harpers_bazaar/1.HB.Lead.image.jpg" alt="">
+                        <div class="text-center">
+                            <h4 class="home-story">Harper’s Bazaar <br>
+                                <span class="resin-italics">with</span> Julia Noni
+                                <br> & Dilone </h4>
+                        </div>
                     </div>
-                </div>
-            </nav>
-            <div class="container">
+                </a>
 
-                <div class="row scene_element100 fadeIn">
-                    <ul id="navigation" class="col-md-12"> 
-                        <li class="link"> <a class="active"> work </a> </li>
-                        <li class="link"> <a href="photographers.html"> photographers </a> </li>
-                        <li class="link"> <a href="talent.html"> talent </a> </li>
-                        <li class="link"> <a href="about.html"> about </a> </li>
-                        <li class="link"> <a href="contact.html"> contact </a> </li>
-			<li class="link"> <a href="set-life.html"> set life </a> </li>
-                    </ul>
-                </div>   
+                <a href="work.html#paia">
+                    <div class="grid-item col-sm-12  col-md-3 text-center">
+                        <img class="img-fluid" src="imgs/paia/N_Paia_SS18_4.jpg" alt="">
+                        <div class="text-center">
+                            <h4 class="home-story">Hart + L&#235;shkina<br>
+                                <span class="resin-italics"> with</span> KIKI
+                                <br><span class="resin-italics">for</span> N. Paia </h4>
+                        </div>
+                    </div>
+                </a>
 
-                <div class="row scene_element100 fadeIn quote">
-                    <div class="col-md-8 col-md-offset-2">
-                        <p> 
-                            "Jennifer is an exceptionally sharp, creative and talented photo producer. Her extensive experience has given her an uncommon set of skills that allows her to analyze any situation and resolve it with a definitively strategic and creative perspective."
-                        </p>
-                        <p>
-                            - Michael Spoljaric, Senior Creative Director Nike
-                        </p>
+                <a href="work.html#nike_court">
+                    <div class="grid-item col-md-6 text-center">
+                        <img class="img-fluid" src="imgs/nike_court/DennisLEAD.jpg" alt="">
+                        <h4 class="home-story">Matteo Montanari
+                            <br><span class="resin-italics"> for </span> NIKE Court </h4>
                     </div>
-                </div>
+                </a>
 
-                <div id="gallery" class="row gutter-10">
-                    
-					<!-- First Row-->
-					<!-- One-->
-                    <div id="harpers_bazaar" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/Story1/1.HB.Lead.image.jpg" alt="harpers bazaar">
+                <a href="work.html#more_adi">
+                    <div class="grid-item col-md-3 text-center">
+                        <img class="img-fluid" src="imgs/more_adi/AdiColorLeadImage1.jpg" alt="">
+                        <h4 class="home-story">Adi Color <br>
+                            <span class="resin-italics"> with</span> JUCO </h4>
                     </div>
-					
-					<div id="vogue" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/vogue/LeadStoryImage.jpg" alt="vogue china">
-                    </div>
+                </a>
 
-					<div id="nike_free" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/2/T2.jpg" alt="nike free">
+
+
+
+                <a href="work.html#fwddazedlead">
+                    <div class="grid-item col-md-3 text-center">
+                        <img class="img-fluid" src="imgs/fwddazedlead/DazedLead.jpg" alt="">
+                        <h4 class="home-story">DAZED Mag </h4>
                     </div>
-					
-                    <!-- Second Row-->
-					<!-- Four-->
-					<div id="vogue" class="vids col-md-4 col-sm-12">
-						<video class ="img-responsive rp-video scene_element150 fadeIn"  autoplay="autoplay" loop muted>
+                </a>
+				
+		    
+				<a href="work.html#damianlillard">
+                    <div class="grid-item col-md-3 text-center">
+                        <img class="img-fluid" src="imgs/damianlillard/IMG-9778.jpg" alt="">
+                        <h4 class="home-story">Damian Lillard<br>
+                             <span class="resin-italics"> by</span> Robin Harper <br>
+							<span class="resin-italics"> with</span> High Snobiety <br>
+			    
+						</h4>
+                    </div>
+                </a>
+
+				<a href="work.html#ssaw">
+                    <div class="grid-item col-md-3 text-center">
+                        <img class="img-fluid" src="imgs/ssaw/hart_leshkina_ssaw_ss20_srgb_3.jpg" alt="">
+                        <h4 class="home-story">Hart + Leshkina<br>
+                             <span class="resin-italics"> for</span> SSAW / SS20 <br>
+						</h4>
+                    </div>
+                </a>
+				
+				<a href="work.html#lilymunihe">
+                    <div class="grid-item col-md-3 text-center">
+                        <img class="img-fluid" src="imgs/lilymunihe/SP20_GLF_StylingTips_Lily_Still_008.jpg" alt="">
+                        <h4 class="home-story">Aaron Smith x<br>
+                            Nike Golf <br>
+							<span class="resin-italics"> with</span> Lily Muni He <br>
+			    
+						</h4>
+                    </div>
+                </a>
+
+
+
+                <a href="work.html#voguebeautyjapan">
+                    <div class="grid-item col-md-6 text-center">
+                        <img class="img-fluid" src="imgs/voguebeautyjapan/Lead_Cover_1.jpg" alt="">
+                        <h4 class="home-story">Vogue Beauty Cover Story
+                            <br><span class="resin-italics custom-width"> with </span> Marcus Ohlsson </h4>
+                    </div>
+                </a>
+
+                <a href="work.html#hbwithzoeygrossman">
+                    <div class="grid-item col-md-6 text-center">
+                        <img class="img-fluid" src="imgs/hbwithzoeygrossman/HB1.jpg" alt="">
+                        <h4 class="home-story">Harper's Bazaar
+                            <br><span class="resin-italics custom-width"> with </span> Zoey Grossman </h4>
+                    </div>
+                </a>
+
+                <a href="work.html#voguejapanfilm">
+                    <div class="grid-item col-md-6 text-center">
+                        <video class="img-fluid" autoplay="autoplay" loop muted style="opacity: 1;visibility: visible;">
+						    <source src="imgs/vogue_japan_film/19-08-26_Vogue_Japan_1920x1080_logo.mp4" type="video/mp4">
+                        </video>
+                        <h4 class="home-story">Vogue Beauty Japan
+                            <br><span class="resin-italics">with</span> DOP Jakob Axelman </h4>
+                    </div>
+                </a>
+
+                <a href="work.html#sloane_stephens">
+                    <div class="grid-item col-md-3 text-center">
+                        <img class="img-fluid" src="imgs/sloane_stephens/SloanLeadImage.jpg" alt="">
+                        <h4 class="home-story">Sloane Stephens
+                            <br><span class="resin-italics custom-width"> & </span> Nike Court
+                            <br><span class="resin-italics"> by </span> Matteo Montanari </h4>
+                    </div>
+                </a>
+
+
+
+
+
+                <a href="work.html#sabrina_carpenter">
+                    <div class="grid-item col-md-3 text-center">
+                        <img class="img-fluid" src="imgs/sabrina_carpenter/SabrinaLEADImage.jpg" alt="">
+                        <h4 class="home-story">Sabrina Carpenter
+                            <br><span class="resin-italics custom-width"> & </span>Converse </h4>
+                    </div>
+                </a>
+
+
+
+
+
+                <a href="work.html#fletcherstreetriders">
+                    <div class="grid-item col-md-6 text-center">
+                        <img class="img-fluid" src="imgs/fletcherstreetriders/SU19_GLF_TheNikePolo_FletcherStRiders_002.jpg" alt="">
+                        <h4 class="home-story">Nike <br>Fletcher Street Riders
+                            <br><span class="resin-italics"> by </span> Julia Noni </h4>
+                    </div>
+                </a>
+
+
+                <a href="work.html#clairo">
+                    <div class="grid-item col-md-6 text-center">
+                        <img class="img-fluid" src="imgs/clairo/clairo_srgb_1.jpg" alt="">
+                        <h4 class="home-story">Clairo <br>Album Artwork
+                            <br><span class="resin-italics"> by </span> Hart + L&#235;shkina </h4>
+                    </div>
+                </a>
+
+                <a href="work.html#nikepolo">
+                    <div class="grid-item col-md-6 text-center">
+                        <img class="img-fluid" src="imgs/nikepolo/SU19_GLF_TheNikePolo_NSylvester_003.jpg" alt="">
+                        <h4 class="home-story">Nike Polo
+                            <br><span class="resin-italics"> with </span> Julia Noni </h4>
+                    </div>
+                </a>
+
+
+                <a href="work.html#nt_su19">
+                    <div class="grid-item col-md-6 text-center">
+                        <img class="img-fluid" src="imgs/nt_su19/LEAD SHOT_rgb_9600.jpg" alt="">
+                        <h4 class="home-story">Nike Training SU 19
+                            <br><span class="resin-italics"> with </span> Marcus Smith </h4>
+                    </div>
+                </a>
+
+                <a href="work.html#morenikepolo">
+                    <div class="grid-item col-md-6 text-center">
+                        <img class="img-fluid" src="imgs/morenikepolo/SU19_GLF_TheNikePolo_5WTWAP_001.jpg" alt="">
+                        <h4 class="home-story">More Nike Polo!
+                            <br><span class="resin-italics"> with </span> Julia Noni </h4>
+                    </div>
+                </a>
+
+                <a href="work.html#niketennis">
+                    <div class="grid-item col-md-6 text-center">
+                        <video class="img-fluid" autoplay="autoplay" loop muted style="opacity: 1;visibility: visible;">
+						    <source src="imgs/niketennis/NikeGrigorMonaco.mp4" type="video/mp4">
+                        </video>
+                        <h4 class="home-story">Nike Tennis
+                            <br><span class="resin-italics">with</span> Tobias Lundquvist </h4>
+                    </div>
+                </a>
+
+
+
+
+                <a href="work.html#vogue">
+                    <div class="grid-item col-md-3 col-sm-12 text-center">
+                        <img class="img-fluid" src="imgs/vogue/LeadStoryImage.jpg" alt="">
+                        <div class="text-center">
+                            <h4 class="home-story">Marcus Ohlsson <br>
+                                <span class="resin-italics">for </span>Vogue Japan </h4>
+                        </div>
+                    </div>
+                </a>
+
+
+                <a href="work.html#fwdhb">
+                    <div class="grid-item col-md-3 text-center">
+                        <img class="img-fluid" src="imgs/fwdhb/HBLead.jpg" alt="">
+                        <h4 class="home-story">Supermodels <span class="resin-italics">for</span> Harper's
+                            <br><span class="resin-italics">with</span> Claiborne Swanson Frank</h4>
+                    </div>
+                </a>
+
+
+                <a href="work.html#juergen_teller">
+                    <div class="grid-item col-md-3 col-sm-12 text-center">
+                        <img class="img-fluid" src="imgs/vivienne_westwood/AdCampaign_SS18_SPS_01.jpg" alt="">
+                        <h4 class="home-story"> Juergen Teller &
+                            <br> Vivienne Westwood </h4>
+                    </div>
+                </a>
+
+
+                <a href="work.html#adi_color">
+                    <div class="grid-item col-md-3 text-center ">
+                        <img class="img-fluid" src="imgs/adi_color/ADI_Cover.jpg" alt="">
+                        <div class="text-center">
+                            <h4 class="home-story">More Adi Color
+                                <br><span class="resin-italics"> with </span> JUCO! </h4>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="work.html#adi">
+                    <div class="grid-item col-md-6 text-center">
+                        <video class="img-fluid" autoplay="autoplay" loop muted style="opacity: 1;visibility: visible;">
+						    <source src="imgs/adi/COURTLAND_30_WIDE_TITLED.mp4" type="video/mp4">
+                        </video>
+                        <h4 class="home-story">Adi featuring Courtland Sutton
+                            <br><span class="resin-italics">directed by</span> Kenneth Cappello </h4>
+                    </div>
+                </a>
+
+                <a href="work.html#voguevideo">
+                    <div class="grid-item col-md-6 col-sm-12 text-center">
+                        <video class="img-fluid" autoplay="autoplay" loop muted style="opacity: 1;visibility: visible;">
 						  <source src="imgs/vogue/vogue_compressed.mp4" type="video/mp4">
-						</video>
+                    </video>
+                        <h4 class="home-story">Vogue Beauty
+                            <br><span class="resin-italics"> by </span>Marcus Ohlsson </h4>
                     </div>
+                </a>
 
-					          
-					<div id="nikeVaporMax" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/NikeVaporMax/5.leadimage.jpg" alt="zoom campaign">
+                <a href="work.html#travisScott">
+                    <div class="grid-item col-md-3 col-sm-12 text-center">
+                        <img class="img-fluid" src="imgs/travis_scott/N7.lead.jpg" alt="">
+                        <h4 class="home-story">Travis Scott <span class="resin-italics">by</span>
+                            <br> Kenneth Cappello
+                            <br><span class="resin-italics">for</span> NIKE VaporMax </h4>
                     </div>
-					
-					<div id="nike_lunar_epic" class="vids col-md-4 col-sm-12">
-						<video class ="img-responsive rp-video scene_element150 fadeIn"  autoplay="autoplay" loop muted>
-						  <source src="imgs/main/SP17_RN.ogv" type="video/ogg">
-						  <source src="imgs/main/SP17_RN.mp4" type="video/mp4">
-						</video>
-                    </div>
-						
+                </a>
 
-					
-					<!-- Third Row-->
-					<!-- Seven-->
-                    <div id="travisScott" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/N7/N7.lead.jpg" alt="TravisScott">
-                    </div>
-							
-					<div id="zoom_campaign" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/3/T3.jpg" alt="zoom campaign">
-                    </div>
-					
-					<div id="nikeNFL" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/N9/N9.lead.jpg" alt="nikeNFL">
-                    </div>
-					
-					
 
-					<!-- Fourth Row-->
-					<!-- Ten-->
-					<div id="psg" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/6/T6.jpg" alt="psg">
+                <a href="work.html#clara_balzary">
+                    <div class="grid-item col-md-3 text-center">
+                        <img class="img-fluid" src="imgs/clara_balzary/N25.lead.jpg" alt="">
+                        <h4 class="home-story">Clara Balzary
+                            <br><span class="resin-italics"> for </span> ESPRIT </h4>
                     </div>
-					
-					<div id="nike_texas_football" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/story8/1.FB.Lead.image.jpg" alt="Nike Texas Football">
-                    </div>
-										
-					<div id="nike_sports_tech" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/5/T5.jpg" alt="nike sports tech">
-                    </div>
-					
-					<!-- Fifth Row-->
-					<!-- Thirteen-->					
-					<div id="bring_your_game" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/story13/1.Bring.Lead.image.jpg" alt="Esprit EDC">
-                    </div>
-					
-					<div id="basketball_zoom" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/1/T1.jpg" alt="basketball zoom">
-                    </div>
-					
-					<div id="eton" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/story15/1.Eton.Lead.image.jpg" alt="Eton">
-                    </div>
-					
-					<!-- Sixth Row-->
-					<!-- Sixteen-->
-					
-					<div id="nike_running_free" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/4/T4.jpg" alt="nike running free">
-                    </div>
-					
-                    <div id="nike_running_free2" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/9/T9.jpg" alt="nike running free">
-                    </div>
+                </a>
 
-					
-					<div id="vinceCamuto" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/N18/N18.lead.jpg" alt="nike running free">
+                <a href="work.html#nike_free">
+                    <div class="grid-item col-md-6 text-center">
+                        <img class="img-fluid" src="imgs/nike_free/2_8.jpg" alt="">
+                        <h4 class="home-story">Julia Noni <span class="resin-italics">for</span>
+                            <br>NIKE Free</h4>
                     </div>
-					
+                </a>
 
-					
-					<!-- Seventh Row-->
-					<!-- Ninteen-->
-					<div id="story19" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/N19/N19.lead.jpg" alt="Esprit">
-                    </div>
-					
-					<div id="bra_campaign" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/8/T8.jpg" alt="bra campaign">
-                    </div>
-					
-					<div id="nike_sports_tech2" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/7/T7.jpg" alt="nike sports tech">
-                    </div>
-					
-					<!-- Eighth Row-->
-					<!-- Twenty-Two-->
-					<div id="nikeVaporMaxKC" class="imgs col-md-4 col-sm-12">
-						<img class="img-responsive" src="imgs/NikeVaporMaxKC/21.coverimage.jpg" alt="marios editorial">
-					</div>
-					
-					<div id="nike_move_without_limits" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/story4/1.Tights.Lead.image.jpg" alt="Nike Move Without Limits">
-                    </div>
-										
-					<div id="esprit_edc" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/story10/1.edc.Lead.image.jpg" alt="Esprit EDC">
-                    </div>
-			
 
-										
-					<!-- Ninth Row-->
-					<!-- Twenty-Five-->
-					<div id="story25" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/N25/N25.lead.jpg" alt="Clara Balzary">
-                    </div>
-					
-                    <div id="story26" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/N26/N26.lead.jpg" alt="Nike Black Roses">
-                    </div>
-			
-					<div id="story27" class="imgs col-md-4 col-sm-12">
-						<img class="img-responsive" src="imgs/N27/N27.lead.jpg" alt="Clara Balzary">
-					</div>
-					
-					<!-- Tenth Row-->
-					<!-- Twenty-Eight-->
-					<div id="story28" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/N28/N28.lead.jpg" alt="Story 28">
-                    </div>
-					
-                    <div id="story29" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/N29/N29.lead.jpg" alt="Story 29">
-                    </div>
-			
-                    <div id="esprit" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/Esprit/7.coverimage.jpg" alt="Esprit">
-                    </div>
-					<!-- Eleventh Row-->
-					<!-- Thirty-One-->
-					<div id="stefanel" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/Stefanel/4.leadimage.jpg" alt="stefanel">
-                    </div>
-										
-					<div id="nike_run_forever" class="imgs col-md-4 col-sm-12">
-                        <img class="img-responsive" src="imgs/story6/1.Africa.Lead.image.jpg" alt="Nike Run Forever ">
-                    </div>
-					
 
-					
 
-                </div>
+                <a href="work.html#rankin">
+                    <div class="grid-item col-md-3 text-center">
+                        <img class="img-fluid" src="imgs/rankin/T3.jpg" alt="">
+                        <h4 class="home-story">Rankin
+                            <br><span class="resin-italics">for</span> Nike Running</h4>
+                    </div>
+                </a>
+
+                <a href="work.html#harden">
+                    <div class="grid-item col-md-3 text-center">
+                        <img class="img-fluid" src="imgs/harden/T1.jpg" alt="">
+                        <h4 class="home-story">James Harden
+                            <br><span class="resin-italics"> by </span> Alan Clarke </h4>
+                    </div>
+                </a>
+
+
+
+
+
+
+
+
+                <a href="work.html#carlos_serrao">
+                    <div class="grid-item col-md-6 text-center">
+                        <img class="img-fluid" src="imgs/carlos_serrao/Africa.4.jpg" alt="">
+                        <h4 class="home-story">Carlos Serrao <span class="resin-italics"> for </span>
+                            <br>NIKE Run Forever</h4>
+                    </div>
+                </a>
+
+
+
+                <a href="work.html#npaia">
+                    <div class="grid-item col-md-6 text-center">
+                        <video class="img-fluid" autoplay="autoplay" loop muted style="opacity: 1;visibility: visible;">
+                            <source src="imgs/npaia/NPaiaSS18brandDELIVERY.mp4" type="video/mp4">
+                        </video>
+                        <h4 class="home-story">Hart + L&#235;shkina
+                            <br><span class="resin-italics">for</span> N. Paia </h4>
+                    </div>
+                </a>
+
+
+
+
+
+
+
+
+                <a href="work.html#nikeVaporMax">
+                    <div class="grid-item col-md-3 text-center">
+                        <img class="img-fluid" src="imgs/nike_vapor_max/5.leadimage.jpg" alt="">
+                        <h4 class="home-story">Kenneth Cappello
+                            <br><span class="resin-italics">for </span> NIKE VaporMax </h4>
+                    </div>
+                </a>
+
+                <a href="work.html#daniel_sannwald">
+                    <div class="grid-item col-md-3 text-center">
+                        <img class="img-fluid" src="imgs/daniel_sannwald/N9_lead.jpg" alt="">
+                        <h4 class="home-story">Daniel Sannwald
+                            <br><span class="resin-italics"> for </span> NIKE NFL</h4>
+                    </div>
+                </a>
+
+                <a href="work.html#ryan_heavyside">
+                    <div class="grid-item col-md-3 text-center">
+                        <img class="img-fluid" src="imgs/ryan_heavyside/NK.COVER.jpg" alt="">
+                        <h4 class="home-story">Ryan Heavyside
+                            <br><span class="resin-italics">with</span> Tobias Lundkvist
+                            <br><span class="resin-italics">for</span> NK Stil</h4>
+                    </div>
+                </a>
+
+                <a href="work.html#matt_jones_esprit">
+                    <div class="grid-item col-md-3 grid-item--height40 text-center">
+                        <img class="img-fluid" src="imgs/matt_jones_esprit/ESP_Cover.jpg" alt="">
+                        <h4 class="home-story">Matt Jones
+                            <br> <span class="resin-italics">for </span> Esprit FA18</h4>
+                    </div>
+                </a>
+
+
+                <a href="work.html#stefanel">
+                    <div class="grid-item col-md-3 text-center">
+                        <img class="img-fluid" src="imgs/Stefanel/leadimage.jpg" alt="">
+                        <h4 class="home-story">Stefanel
+                            <br><span class="resin-italics">with</span> Beau Grealy </h4>
+                    </div>
+                </a>
+
+                <a href="work.html#nike_texas_football">
+                    <div class="grid-item col-md-6 text-center">
+                        <img class="img-fluid" src="imgs/texas_football/FB_4.jpg" alt="">
+                        <h4 class="home-story">Texas Football
+                            <br><span class="resin-italics">with</span> Steven Counts</h4>
+                    </div>
+                </a>
+				
+				
+				<a href="work.html#stephan_alessi">
+                    <div class="grid-item col-md-6 text-center">
+                        <video class="img-fluid" autoplay="autoplay" loop muted style="opacity: 1;visibility: visible;">
+                             <source src="imgs/main/SP17_RN.ogv" type="video/ogg">
+						    <source src="imgs/stephan_alessi/sp17.mp4" type="video/mp4">
+                        </video>
+                        <h4 class="home-story">Stephan Alessi
+                            <br><span class="resin-italics">for</span> NIKE Lunar Epic </h4>
+                    </div>
+                </a>
 
             </div>
         </div>
-</div>	    
+        <div class="row">
+            <div class="col-md-6">
+                <p>&copy; Copyright 2020 Resin Projects Inc</p>
+            </div>
+            <div class="col-md-6">
+                <div class="right">
+                    <a href="mailto:jennifer@resinprojects.com" target="_top" class="fa fa-envelope"></a>
+                    <a href="https://www.instagram.com/resinprojects/?hl=en" class="fa fa-instagram"></a>
+                    <a href="#!" class="fa fa-twitter"></a>
+                    <a href="#!" class="fa fa-facebook"></a>
+                    <a href="#!" class="fa fa-youtube"></a>
+                    <a href="#!" class="fa fa fa-snapchat"></a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <!-- Google Analytics -->
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                                    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-84076524-1', 'auto');
-            ga('send', 'pageview');
-        </script>
-        <!-- End Google Analytics -->
-	    
-	    <script>	
-		var randomNumber = Math.floor(Math.random() * 2) + 1 ;
-		if(randomNumber === 1 ){
-			$('#load-image').attr("src",'imgs/main/HB3L.jpg');
-			$('#load-image').removeClass("center-block-1");
-			$('#load-image').addClass("center-block-2");
-		}
-		    
-		if (document.cookie.indexOf("visited") >= 0) {
-			$('#myNav').hide();
-		} else {
-			document.cookie = "visited";
-		}
-		   
-		window.onload = function() { // this will be run when the whole page is loaded
-			$('#bd').fadeIn("slow");
-			
-			$( "#myNav" ).animate({opacity: 0}, 8000	, function() {
-				$('#myNav').hide();
-			});
-		};
-		$(document).ready(function(){ 
-		  });
-		</script>
-    </body>
+
+
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/masonry/masonry.js"></script>
+    <script src="https://imagesloaded.desandro.com/imagesloaded.pkgd.js"></script>
+    <script src='js/lazyload.js'></script>
+
+    <script>
+        var $grid = $('.grid').imagesLoaded(function() {
+            $('.grid').masonry({
+                itemSelector: '.grid-item',
+                columnWidth: '.grid-sizer',
+                percentPosition: true,
+            });
+        });
+
+        $grid.one('layoutComplete', function() {
+            $('#main-container').waitForImages({
+                finished: function() {
+                    // ...
+                },
+                each: function() {
+                    // ...
+                    $(this).addClass('scene_element150 fadeIn');
+                    $(this).css('visibility', 'visible');
+                },
+                waitForAll: false
+
+            });
+        });
+
+        //fixes video issue
+        $grid.on('load loadeddata', function() {
+            //console.log('hello');
+            $grid.masonry('layout');
+        });
+
+        var refreshGrid = function() {
+            setTimeout(function() {
+                $grid.masonry('layout');
+            }, 1000);
+        }
+
+        jQuery(window).on('load resize', function() {
+            //console.log('resize');
+            refreshGrid();
+        });
+        $(document).ready(function() {
+            document.addEventListener('scroll', function(event) {
+                setTimeout(function() {
+                    refreshGrid();
+                }, 5000);
+            }, true /*Capture event*/ );
+
+        });
+    </script>
+
+</body>
+
 </html>
