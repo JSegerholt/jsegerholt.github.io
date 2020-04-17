@@ -62,6 +62,25 @@ ids = {
         prev_link: '/work.html#nike_court',
         next_link: '/work.html#more_adi'
     },
+    "#nike_VersatileByNature": {
+        images: ['<div class="col-xs-12 col-md-12 examples">' +
+            '<div class="col-xs-12 bounds">' +
+            '<video class="img-responsive center-block" autoplay="autoplay" controls="controls" loop style="opacity: 1;visibility: visible;">' +
+            '    <source src="imgs/nike_VersatileByNature/SU19_GLF_TheNikePolo_FStreet_Web.mp4" type="video/mp4">' +
+            '</video>' +
+            '</div>' +
+
+            '</div>'
+        ],
+        description: '<div id="no-pad" class="col-md-4">' +
+            "<p>Nike</p>" +
+            '<p>Fletcher Street Riders</p>' +
+            '<p>Versatile By Nature</p>' +
+            '</div>',
+        title: "Nike Versatile By Nature",
+        prev_link: '/work.html#voguebeautyjapan',
+        next_link: '/work.html#more_adi'
+    },
     "#more_adi": {
         images: ['<div class="col-xs-12 col-md-12 examples">' +
             '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/more_adi/AdiColorImage2.jpg" alt="">  </div>' +
