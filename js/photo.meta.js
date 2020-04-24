@@ -1265,6 +1265,25 @@ ids = {
         prev_link: '/work.html#damianlillard',
         next_link: '/work.html#lilymunihe'
     },
+    "#adidaspksubban": {
+        images: ['<div class="col-xs-12 col-md-12 examples">' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/lilymunihe/SP20_GLF_StylingTips_Lily_Still_002.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/lilymunihe/SP20_GLF_StylingTips_Lily_Still_003.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/lilymunihe/SP20_GLF_StylingTips_Lily_Still_004.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/lilymunihe/SP20_GLF_StylingTips_Lily_Still_008.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/lilymunihe/SP20_GLF_StylingTips_Lily_Still_010.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/lilymunihe/SP20_GLF_StylingTips_Lily_Still_013.jpg" alt="">  </div>' +
+            '</div>'
+        ],
+        description: '<div id="no-pad" class="col-md-4">' +
+            "<p>Aaron Smith x</p>" +
+            '<p>Nike Golf</p>' +
+            '<p>with Lily Muni He</p>' +
+            '</div>',
+        title: 'Adidas Athletics',
+        prev_link: '/work.html#ssaw',
+        next_link: '/work.html#fwddazedlead'
+    },
     "#lilymunihe": {
         images: ['<div class="col-xs-12 col-md-12 examples">' +
             '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/lilymunihe/SP20_GLF_StylingTips_Lily_Still_002.jpg" alt="">  </div>' +
