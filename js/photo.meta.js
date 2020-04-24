@@ -1267,10 +1267,10 @@ ids = {
     },
     "#adidaspksubban": {
         images: ['<div class="col-xs-12 col-md-12 examples">' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/adidaspksubban/AdidasPKSubban_1" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/adidaspksubban/AdidasPKSubban_2" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/adidaspksubban/AdidasPKSubban_3" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/adidaspksubban/AdidasPKSubban_4" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/adidaspksubban/AdidasPKSubban_1.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/adidaspksubban/AdidasPKSubban_2.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/adidaspksubban/AdidasPKSubban_3.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/adidaspksubban/AdidasPKSubban_4.jpg" alt="">  </div>' +
             '</div>'
         ],
         description: '<div id="no-pad" class="col-md-4">' +
