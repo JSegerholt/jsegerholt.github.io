@@ -1284,21 +1284,4 @@ ids = {
         prev_link: '/work.html#ssaw',
         next_link: '/work.html#fwddazedlead'
     },
-  },
-  "#AdidasPKSubban": {
-      images: ['<div class="col-xs-12 col-md-12 examples">' +
-          '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/AdidasPKSubban/AdidasPKSubban_1.jpg" alt="">  </div>' +
-          '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/AdidasPKSubban/AdidasPKSubban_2.jpg" alt="">  </div>' +
-          '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/AdidasPKSubban/AdidasPKSubban_3.jpg" alt="">  </div>' +
-          '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/AdidasPKSubban/AdidasPKSubban_4.jpg" alt="">  </div>' +
-          '</div>'
-      ],
-      description: '<div id="no-pad" class="col-md-4">' +
-          "<p>Adidas Athletics</p>" +
-          '<p>with Kenneth Cappello</p>' +
-          '<p>Featuring P.K. Subban</p>'
-          '</div>',
-      title: 'Adidas Athletics',
-      prev_link: '/work.html#lilymunihe',
-      next_link: '/work.html#harpers_bazaar'
 }
