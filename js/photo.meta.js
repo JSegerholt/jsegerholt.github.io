@@ -1245,6 +1245,26 @@ ids = {
             '</div>',
         title: 'Damian Lillard',
         prev_link: '/work.html#more_adi',
+        next_link: '/work.html#worldofhyatt'
+    },
+    "#worldofhyatt": {
+        images: ['<div class="col-xs-12 col-md-12 examples">' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt/WorldofHyatt_01.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt/WorldofHyatt_02.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt/WorldofHyatt_03.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt/WorldofHyatt_04.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt/WorldofHyatt_05.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt/WorldofHyatt_06.jpg" alt="">  </div>' +
+
+            '</div>'
+        ],
+        description: '<div id="no-pad" class="col-md-4">' +
+            "<p>World of Hyatt</p>" +
+            '<p>Sanya, China + Hong Kong</p>' +
+            '<p>shot by Nils Ericson</p>' +
+            '</div>',
+        title: 'World of Hyatt',
+        prev_link: '/work.html#damianlillard',
         next_link: '/work.html#ssaw'
     },
     "#ssaw": {
@@ -1300,5 +1320,43 @@ ids = {
         title: 'Aaron Smith x',
         prev_link: '/work.html#ssaw',
         next_link: '/work.html#fwddazedlead'
+    },
+    "#AdiColor_JordanBoothe": {
+        images: ['<div class="col-xs-12 col-md-12 examples">' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/AdiColor_JordanBoothe/AdiColor_JordanBoothe_01.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/AdiColor_JordanBoothe/AdiColor_JordanBoothe_02.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/AdiColor_JordanBoothe/AdiColor_JordanBoothe_03.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/AdiColor_JordanBoothe/AdiColor_JordanBoothe_04.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/AdiColor_JordanBoothe/AdiColor_JordanBoothe_05.jpg" alt="">  </div>' +
+
+            '</div>'
+        ],
+        description: '<div id="no-pad" class="col-md-4">' +
+            "<p>AdiColor</p>" +
+            '<p>Styled by Jordan Boothe</p>' +
+            '</div>',
+        title: 'AdiColor',
+        prev_link: '/work.html#hbwithzoeygrossman',
+        next_link: '/work.html#voguejapanfilm'
+    },
+
+    "#adidaslifestyle_nilsericson": {
+        images: ['<div class="col-xs-12 col-md-12 examples">' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/adidaslifestyle_nilsericson/adidaslifestyle_nilsericson_01.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/adidaslifestyle_nilsericson/adidaslifestyle_nilsericson_02.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/adidaslifestyle_nilsericson/adidaslifestyle_nilsericson_03.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/adidaslifestyle_nilsericson/adidaslifestyle_nilsericson_04.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/adidaslifestyle_nilsericson/adidaslifestyle_nilsericson_05.jpg" alt="">  </div>' +
+
+
+            '</div>'
+        ],
+        description: '<div id="no-pad" class="col-md-4">' +
+            "<p>Adidas Lifestyle</p>" +
+            '<p>with Nils Ericson</p>' +
+            '</div>',
+        title: 'Adidas Lifestyle',
+        prev_link: '/work.html#juergen_teller',
+        next_link: '/work.html#AdiColor'
     },
 }
