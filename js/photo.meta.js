@@ -1249,12 +1249,12 @@ ids = {
     },
     "#worldofhyatt": {
         images: ['<div class="col-xs-12 col-md-12 examples">' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt/WorldofHyatt_1.jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt/WorldofHyatt_2.jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt/WorldofHyatt_3.jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt/WorldofHyatt_4.jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt/WorldofHyatt_5.jpg" alt="">  </div>' +
-            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt/WorldofHyatt_6.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt/worldofhyatt_1.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt/worldofhyatt_2.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt/worldofhyatt_3.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt/worldofhyatt_4.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt/worldofhyatt_5.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt/worldofhyatt_6.jpg" alt="">  </div>' +
 
             '</div>'
         ],
