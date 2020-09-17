@@ -131,7 +131,7 @@ h1 {
     font-size: 15px;
     font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", Times, serif;
     line-height: 1.42857143;
-    text-transform: lowercase;
+    text-transform: none;
     letter-spacing: 2px;
 }
 
@@ -229,4 +229,3 @@ a {
 	margin-right: 0px;
     margin-left: 0px;
 }
-
