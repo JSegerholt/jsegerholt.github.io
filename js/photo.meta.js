@@ -324,6 +324,44 @@ ids = {
         prev_link: '/work.html#niketennis',
         next_link: '/work.html#adi_color'
     },
+
+    "#worldofhyatt2": {
+        images: ['<div class="col-xs-12 col-md-12 examples">' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt2/worldofhyatt2_01.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt2/worldofhyatt2_02.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt2/worldofhyatt2_03.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt2/worldofhyatt2_04.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt2/worldofhyatt2_05.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt2/worldofhyatt2_06.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt2/worldofhyatt2_07.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt2/worldofhyatt2_08.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt2/worldofhyatt2_09.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt2/worldofhyatt2_10.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt2/worldofhyatt2_11.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt2/worldofhyatt2_12.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt2/worldofhyatt2_13.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt2/worldofhyatt2_14.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt2/worldofhyatt2_15.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt2/worldofhyatt2_16.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt2/worldofhyatt2_17.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt2/worldofhyatt2_18.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt2/worldofhyatt2_19.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/worldofhyatt2/worldofhyatt2_20.jpg" alt="">  </div>' +
+
+
+            '</div>'
+        ],
+        description: '<div id="no-pad" class="col-md-4">' +
+            "<p>World of Hyatt</p>" +
+            '<p>Paris & Spain</p>' +
+            '<p>Shot by Nils Ericson</p>' +
+            '</div>',
+        title: 'World of Hyatt',
+        prev_link: '/work.html#adi',
+        next_link: '/work.html#adi_color'
+    },
+
+
     "#adi_color": {
         images: ['<div class="col-xs-12 col-md-12 examples">' +
             '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/adi_color/ADI.1.jpg" alt="">  </div>' +
