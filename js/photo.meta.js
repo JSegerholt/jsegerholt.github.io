@@ -376,7 +376,7 @@ ids = {
             '<p>Photo: JUCO</p>' +
             '</div>',
         title: 'More Adi Color',
-        prev_link: '/work.html#juergen_teller',
+        prev_link: '/work.html#worldofhyatt_2',
         next_link: '/work.html#vogue'
     },
     "#vogue": {
