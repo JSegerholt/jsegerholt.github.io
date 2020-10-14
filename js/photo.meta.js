@@ -37,6 +37,29 @@ ids = {
         prev_link: '/work.html#harpers_bazaar',
         next_link: '/work.html#nike_court'
     },
+
+  "#nikegolf_tigerwoods": {
+    images: ['<div class="col-xs-12 col-md-12 examples">' +
+        '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/nikegolf_tigerwoods/nikegolf_tigerwoods_1.jpg" alt="">  </div>' +
+        '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/nikegolf_tigerwoods/nikegolf_tigerwoods_2.jpg" alt="">  </div>' +
+        '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/nikegolf_tigerwoods/nikegolf_tigerwoods_3.jpg" alt="">  </div>' +
+        '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/nikegolf_tigerwoods/nikegolf_tigerwoods_4.jpg" alt="">  </div>' +
+        '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/nikegolf_tigerwoods/nikegolf_tigerwoods_5.jpg" alt="">  </div>' +
+        '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/nikegolf_tigerwoods/nikegolf_tigerwoods_6.jpg" alt="">  </div>' +
+        '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/nikegolf_tigerwoods/nikegolf_tigerwoods_7.jpg" alt="">  </div>' +
+        '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/nikegolf_tigerwoods/nikegolf_tigerwoods_8.jpg" alt="">  </div>' +
+
+        '</div>'
+    ],
+    description: '<div id="no-pad" class="col-md-4">' +
+        '<p>Tiger Woods for Nike Golf</p>' +
+        '<p>Shot by Jon Humphries</p>' +
+        '</div>',
+    title: 'Tiger Woods for Nike Golf',
+    prev_link: '/work.html#paia',
+    next_link: '/work.html#worldofhyatt'
+},
+
     "#nike_court": {
         images: ['<div class="col-xs-12 col-md-12 examples">' +
             '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/nike_court/Dennis2.jpg" alt="">  </div>' +
