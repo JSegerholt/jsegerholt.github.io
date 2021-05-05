@@ -1420,4 +1420,25 @@ ids = {
         prev_link: '/work.html#juergen_teller',
         next_link: '/work.html#AdiColor'
     },
+    "#adi_spring": {
+        images: ['<div class="col-xs-12 col-md-12 examples">' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/adi_spring/adi_spring_1.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/adi_spring/adi_spring_2.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/adi_spring/adi_spring_3.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/adi_spring/adi_spring_4.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/adi_spring/adi_spring_5.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/adi_spring/adi_spring_6.jpg" alt="">  </div>' +
+            '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/adi_spring/adi_spring_7.jpg" alt="">  </div>' +
+
+
+            '</div>'
+        ],
+        description: '<div id="no-pad" class="col-md-4">' +
+            "<p>Adi Spring</p>" +
+            '<p>Shot by Mollie Cranna</p><br><br>' +
+            '</div>',
+        title: 'Adi Spring by Mollie Cranna',
+        prev_link: '/work.html#damianlillard',
+        next_link: '/work.html#ssaw'
+    },
 }
