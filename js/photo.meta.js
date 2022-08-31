@@ -1,27 +1,4 @@
 ids = {
-  "#perfectissuetwo": {
-      images: ['<div class="col-md-12 examples">' +
-          '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/perfectissuetwo/perfectissuetwo.mp4" alt="">  </div>' +
-          '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/perfectissuetwo/perfectissuetwo_1.jpg" alt="">  </div>' +
-          '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/perfectissuetwo/perfectissuetwo_2.jpg" alt="">  </div>' +
-          '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/perfectissuetwo/perfectissuetwo_3.jpg" alt="">  </div>' +
-          '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/perfectissuetwo/perfectissuetwo_4.jpg" alt="">  </div>' +
-          '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/perfectissuetwo/perfectissuetwo_5.jpg" alt="">  </div>' +
-          '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/perfectissuetwo/perfectissuetwo_6.jpg" alt="">  </div>' +
-          '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/perfectissuetwo/perfectissuetwo_7.jpg" alt="">  </div>' +
-          '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/perfectissuetwo/perfectissuetwo_8.jpg" alt="">  </div>' +
-          '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/perfectissuetwo/perfectissuetwo_9.jpg" alt="">  </div>' +
-          '</div>'
-      ],
-      description: '<div id="no-pad" class="col-md-4">' +
-          '<p>Kaia Gerber by Mikael Jansson for PERFECT Issue Two</p>' +
-          '<p>February 2022 </p>' +
-          '</div>',
-      title: 'Kaia Gerber for PERFECT',
-      prev_link: '/work.html#nike_golf_wih_rory_mcllroy',
-      next_link: '/work.html#harper_bazaar'
-  },
-
     "#harpers_bazaar": {
         images: ['<div class="col-xs-12 col-md-12 examples">' +
             '<div class="col-xs-12 bounds"> <img class="img-responsive" src="imgs/harper_bazaar/HB.1.jpg" alt="">  </div>' +
