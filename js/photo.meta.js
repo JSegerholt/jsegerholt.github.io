@@ -1,7 +1,10 @@
 ids = {
   "#perfectissuetwo": {
       images: ['<div class="col-md-12 examples">' +
-          '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/perfectissuetwo/perfectissuetwo.mp4" alt="">  </div>' +
+
+      '<video class="img-responsive center-block" autoplay="autoplay" controls="controls" loop style="opacity: 1;visibility: visible;">' +
+      '    <source src="imgs/perfectissuetwo/perfectissuetwo-WEB.mp4" type="video/mp4">' +
+      '</video>' +
           '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/perfectissuetwo/perfectissuetwo_1.jpg" alt="">  </div>' +
           '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/perfectissuetwo/perfectissuetwo_2.jpg" alt="">  </div>' +
           '<div class="col-xs-12 bounds"> <img class="img-responsive center-block" src="imgs/perfectissuetwo/perfectissuetwo_3.jpg" alt="">  </div>' +
